@@ -28,7 +28,7 @@ module.exports = {
         return Object.assign({}, {
             menus: req.menus,
             user: req.session.user
-        });
+        }, params);
 
     },
 
